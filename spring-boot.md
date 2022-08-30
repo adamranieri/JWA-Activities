@@ -23,6 +23,7 @@ The API should support all CRUD operations.
 - intials are always saved in the database as uppercase 
 - People should be able to use a query param to sort by initials
 - Scores should be shown in order of points descending
+-   hint use a custom abstract method in the Repository interface. https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
 ```JSON
 {
     "id":101,
