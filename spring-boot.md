@@ -10,7 +10,7 @@
 - To solidify Spring Boot
 
 ## Description
-Associates will create a REST API using Spring Boot for tracking hi scores in. An example of a sample score JSON is shown.
+Associates will create a REST API using Spring Boot for tracking hi scores. An example of a sample score JSON is shown.
 The API should support all CRUD operations.
 - Create
 - Read
@@ -19,7 +19,7 @@ The API should support all CRUD operations.
 
 ### Business Rules
     - Negative scores should throw a 422
-    - If initials is longer than 3 charcters then only the first 3 characters are used
+    - If initials is longer than 3 charcters when createing a score then only the first 3 characters are used
     - intials are always saved in the database as uppercase 
     - People should be able to use a query param to sort by initials
     - Scores should be shown in order of points descending
